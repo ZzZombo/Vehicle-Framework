@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<SoundDef>
+		<defName>AerialVehicle_Paratroopers_FlyOver</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>3</maxSimultaneous>
+		<subSounds>
+			<li>
+				<muteWhenPaused>true</muteWhenPaused>
+				<grains>
+					<li Class = "AudioGrain_Clip">
+						<clipPath>Paratrooper_FlyOver</clipPath>
+					</li>				
+				</grains>
+				<volumeRange>
+					<min>30</min>
+					<max>40</max>
+				</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>
